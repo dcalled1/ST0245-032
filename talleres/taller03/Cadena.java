@@ -1,0 +1,3 @@
+publi class Cadena {
+
+}
