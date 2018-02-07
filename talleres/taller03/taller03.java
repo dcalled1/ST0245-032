@@ -11,10 +11,10 @@ public class Taller03
         }
     }
     
-    public static void combinations(String base, String s, int j){
+    public static void punto2(String base, String s, int j){
         if (j == 0){
             for(int i = 0; i < s.length(); i++){
-                combinations("", s.substring(i), 1);
+                punto2("", s.substring(i), 1);
             }
         } else if (s.length() == 0){
             System.out.println(base);
