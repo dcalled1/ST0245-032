@@ -26,4 +26,16 @@ public class Taller03
             }
         }
     }
+    
+    public static void punto3(String[] s, String a, int i, int n) {
+        if (n == 0) {
+            System.out.println(act);
+        } else {
+            for (int j = 0; j < i; j++) {
+                if (!act.contains(elem[j])) { 
+                    punto3(s, act + elem[j], i - 1, n);
+                }
+            }
+        }   
+    }
 }
