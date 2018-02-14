@@ -83,10 +83,4 @@ public class Main {
             System.out.println("En la pocision "+n+" de la secusncia fibonacci está el nímero"+res +". Tiempo gastado(nanosegundos): "+stim);
         }
     }
-    
-    public long fibonacci(int n) {
-        if(n<=1) return n;
-        else return fibonacci(n-1)+fibonacci(n-2);
-    }
-    
 }
