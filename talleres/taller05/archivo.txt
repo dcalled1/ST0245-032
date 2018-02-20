@@ -14,7 +14,7 @@ public void tablas(int n) {
 
 public void ordenar(int[] a) {
   int j,temp;
-  for(int i=0;i<n;i++) {
+  for(int i=0;i<a.length;i++) {
     j=i;
     while(j>0 && a[j-1]>a[j]) {
       temp=a[j];
